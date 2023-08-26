@@ -97,7 +97,6 @@ function renderAddBtn() {
         renderAddBtn()
     })
 }
-
 async function viewProduct(e,id){
     let response = await fetch(`/api/product/${id}`);
     if (response.status === 200) {
